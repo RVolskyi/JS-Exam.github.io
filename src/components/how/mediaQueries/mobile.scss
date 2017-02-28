@@ -1,0 +1,7 @@
+@media #{$mobile} {
+    @import '../mobile';
+
+    h1 {
+        color: #c14949;
+    }
+}

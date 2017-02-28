@@ -1,0 +1,25 @@
+@media #{$tablet} {
+    @import '../desktop';
+
+    & {
+        .footerContainer {
+            width: 690px;
+
+            & h1 {
+                width: 225px;
+            }
+
+            .companyNav {
+                width: 170px;
+            }
+
+            .partners {
+                width: 178px;
+            }
+
+            .designedBy {
+                width: 115px;
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+& {
+    position: relative;
+    margin: 100px auto 40px;
+    padding-top: 40px;
+    border-top: 4px solid $color2;
+
+    .footerContainer {
+        width: 940px;
+        margin: 0 auto;
+
+        & h1 {
+            width: 240px;
+            float: left;
+
+            a {
+                color: $color2;
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+
+        .companyNav {
+            width: 160px;
+            float: left;
+
+            & > h5 {
+                margin-bottom: 5px;
+                color: $color3;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            & nav {
+                margin: 0 auto;
+
+                & a {
+                    display: block;
+                    margin-top: 12px;
+                    transition: color $transitionDuration;
+                    color: $color8;
+                    font-size: 14px;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $color3;
+                    }
+                }
+            }
+        }
+
+        .partners {
+            width: 400px;
+            float: left;
+            color: $color3;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .designedBy {
+            width: 123px;
+            float: left;
+            text-align: right;
+
+            & h6 {
+                color: $color9;
+                font-size: 10px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            a {
+                img {
+                    display: inline-block;
+                    margin: 10px 0 18px;
+                }
+            }
+        }
+    }
+}

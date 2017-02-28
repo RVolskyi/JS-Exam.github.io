@@ -1,0 +1,17 @@
+@media #{$tablet} {
+    @import '../desktop';
+
+    .loginForm {
+        top: 40px;
+        right: 50px;
+    }
+
+    .logo {
+        top: 40px;
+        left: 50px;
+    }
+
+    & > a {
+        margin-top: 30px;
+    }
+}

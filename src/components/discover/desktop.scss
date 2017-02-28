@@ -1,0 +1,125 @@
+& {
+    h3 {
+        margin-top: 100px;
+        color: $color3;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .grid {
+        width: 960px;
+        margin: 10px auto 0;
+
+        a {
+            display: block;
+            height: 310px;
+            margin: 10px;
+            padding-top: 140px;
+            float: left;
+            border-radius: 4px;
+            transition: opacity $transitionDuration;
+            color: $color1;
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 30px;
+            text-align: center;
+            text-decoration: none;
+
+            &.sport {
+                width: 300px;
+                background: url('../images/sport.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.wellness {
+                width: 300px;
+                background: url('../images/wellness.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.extreme {
+                width: 300px;
+                padding-top: 120px;
+                background: url('../images/extreme.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.games {
+                width: 300px;
+                background: url('../images/games.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.culture {
+                width: 620px;
+                background: url('../images/culture.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.relaxation {
+                width: 620px;
+                background: url('../images/relaxation.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.travelling {
+                width: 300px;
+                background: url('../images/travelling.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &:hover {
+                opacity: .88;
+            }
+        }
+    }
+
+    p {
+        margin-top: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    form {
+        margin-top: 15px;
+        text-align: center;
+
+        input {
+            width: 280px;
+            height: 40px;
+            margin: 0 auto;
+            padding-left: 15px;
+            border: 1px solid $color9;
+            border-radius: 4px;
+            outline: none;
+            color: $color10;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            line-height: 40px;
+            text-align: left;
+        }
+
+        a {
+            display: block;
+            width: 280px;
+            height: 40px;
+            margin: 10px auto 0;
+            border: 2px solid $color2;
+            border-radius: 20px;
+            background-color: $color2;
+            transition: background-color $transitionDuration, color $transitionDuration;
+            color: $color1;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 36px;
+            text-decoration: none;
+
+            &:hover {
+                background-color: $color1;
+                color: $color2;
+            }
+        }
+    }
+}

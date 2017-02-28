@@ -1,0 +1,104 @@
+& {
+    margin-top: 35px;
+
+    h3 {
+        color: $color3;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .grid {
+        margin-top: 10px;
+
+        a {
+            display: block;
+            height: 120px;
+            margin: 10px;
+            border-radius: 4px;
+            color: $color1;
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 25px;
+            text-align: center;
+            text-decoration: none;
+
+            &.sport {
+                background: url('../images/sport.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.wellness {
+                background: url('../images/wellness.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.extreme {
+                background: url('../images/extreme.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.games {
+                background: url('../images/games.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.culture {
+                background: url('../images/culture.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.relaxation {
+                background: url('../images/relaxation.jpg') center no-repeat;
+                background-size: cover;
+            }
+
+            &.travelling {
+                background: url('../images/travelling.jpg') center no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+
+    & p {
+        margin-top: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    form {
+        margin-top: 15px;
+        text-align: center;
+
+        & input {
+            width: 280px;
+            height: 40px;
+            margin: 0 auto;
+            padding-left: 15px;
+            border: 1px solid $color9;
+            border-radius: 4px;
+            outline: none;
+            color: $color10;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            line-height: 40px;
+            text-align: left;
+        }
+
+        & a {
+            display: block;
+            width: 280px;
+            height: 40px;
+            margin: 10px auto 0;
+            border-radius: 20px;
+            background-color: $color2;
+            color: $color1;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 40px;
+            text-decoration: none;
+        }
+
+    }
+}

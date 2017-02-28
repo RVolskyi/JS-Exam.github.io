@@ -1,0 +1,7 @@
+@media #{$desktop} {
+    @import '../desktop';
+
+    h1 {
+        color: #7ca748;
+    }
+}

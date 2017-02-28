@@ -1,0 +1,68 @@
+@media #{$tablet} {
+    @import '../desktop';
+
+    & {
+        width: 746px;
+
+        .step {
+            &.step--1 {
+                width: 235px;
+
+                & .carousel {
+                    & div {
+                        width: 235px;
+                    }
+                }
+
+                & .content {
+                    top: 210px;
+                    padding-right: 15px;
+                }
+            }
+
+            &.step--2 {
+                width: 235px;
+
+                & .carousel {
+                    transform: translateX(-235px);
+
+                    & div {
+                        width: 235px;
+                    }
+                }
+
+                & .content {
+                    top: 250px;
+                    padding-right: 15px;
+                }
+            }
+
+            &.step--3 {
+                width: 235px;
+
+                & .carousel {
+                    transform: translateX(-470px);
+
+                    & div {
+                        width: 235px;
+                    }
+                }
+
+                & .content {
+                    top: 210px;
+                    padding-right: 15px;
+                }
+            }
+
+            & nav {
+                width: 235px;
+                top: 40px;
+
+                .prev,
+                .next {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

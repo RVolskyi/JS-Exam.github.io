@@ -1,0 +1,38 @@
+@media #{$tablet} {
+    @import '../desktop';
+
+    .grid {
+        width: 768px;
+
+        a {
+            &.sport {
+                width: 235px;
+            }
+
+
+            &.wellness {
+                width: 235px;
+            }
+
+            &.extreme {
+                width: 235px;
+            }
+
+            &.games {
+                width: 235px;
+            }
+
+            &.culture {
+                width: 490px;
+            }
+
+            &.relaxation {
+                width: 490px;
+            }
+
+            &.travelling {
+                width: 235px;
+            }
+        }
+    }
+}
